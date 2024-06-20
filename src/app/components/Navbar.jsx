@@ -57,7 +57,7 @@ const Navbar = () => {
                                     className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""}`}
                                     aria-labelledby="navbarDropdownSuppliers"
                                 >
-                                    <li><Link href="#"><span className="dropdown-item">Impact on Supply Chain</span></Link></li>
+                                    <li><Link href="/suppliers-assement"><span className="dropdown-item">Impact on Supply Chain</span></Link></li>
                                     <li><Link href="#"><span className="dropdown-item">Industries & Examples</span></Link></li>
                                     <li><Link href="#"><span className="dropdown-item">Plan & Pricing</span></Link></li>
                                 </ul>
