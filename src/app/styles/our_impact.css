@@ -1,0 +1,148 @@
+.bannerSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  background-image: url('../../../public/Images/our_impact/banner-background.png'), url('../../../public/Images/our_impact/banner.png');
+  background-size: cover, cover;
+  /* Adjust sizes for each image */
+  background-position: center, center;
+  /* Adjust positions for each image */
+  background-repeat: no-repeat, no-repeat;
+  /* Set repeat properties for each image */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 0 10px;
+  /* Add padding for better text display on small screens */
+}
+
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 1.5em;
+    /* Adjust font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text {
+    font-size: 1.2em;
+    /* Adjust font size for mobile phones */
+  }
+}
+
+.heading {
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.supply-chain-image {
+  margin-top: 50px;
+}
+
+.chain-banner {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.supply-text {
+  margin-top: 45px;
+  justify-content: center;
+}
+
+.supply-content {
+  margin-left: 190px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.supply-heading {
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.chain-card {
+  background-color: #EEF6EF;
+  padding: 20px;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 35px;
+}
+
+.chain-text {
+  padding-top: 70px;
+}
+
+.chain-description {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.chain-heading {
+  font-weight: 700;
+  width: 200px;
+  line-height: 25px;
+}
+.slider-box {
+  background-color: #EEF6EF;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 90px;
+}
+
+.slider-left {
+  padding: 20px;
+  padding-top: 40px;
+  font-weight: 700;
+}
+.sliderleft-content {
+  padding-top: 20px;
+}
+
+.border-area {
+  border-top: 1px solid red;
+  border-right-style: 1px;
+}
+.slider-num {
+  padding-top: 20px;
+  font-weight: 700;
+}
+.slider-leftpart {
+  display: flex;
+  justify-content: space-between;
+}
+.react-multi-carousel-dot--active button {
+  background: #1fbd12 !important;
+  border-color: #1fbd12 !important;
+} 
+
+.balance-impact {
+  margin-top: 100px;
+}
+.balance-heading {
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.balance-box{
+  background-color: #EEF6EF;
+  width: 340px;
+  Height:72px;
+ text-align: center;
+  padding-top: 25px;
+ border-radius: 8px;
+ 
+}
