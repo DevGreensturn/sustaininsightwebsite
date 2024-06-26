@@ -1,0 +1,87 @@
+.news-section {
+    margin-top: 80px;
+}
+
+.insight-class {
+    margin-top: 40px;
+    width: 121px;
+    border-radius: 30px;
+    padding-left: 21px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    background-color: #EEF6EF;
+    ;
+}
+
+.news-rightheading {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.news-rightcontent {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .image-newsleftside {
+     width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .image-newsleftside {
+     width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image-newsleftside {
+      width: 100%;
+     
+    }
+  }
+
+  .tab-class {
+    margin-top: 80px;
+  }
+
+  .tab-button {
+    background-color: #1FBD12;
+    color: #fff;
+    border-radius: 20px;
+    width: 240px;
+
+  }
+  .view-button {
+    width: 100px;
+    background-color: #1FBD12;
+    border-radius: 20px;
+   
+  }
+
+  .css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fff;
+}
+
+
+.css-11yukd5-MuiTabs-indicator {
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    width: 10%;
+  background-color: #fff;
+
+    /* background-color: #9c27b0; */
+}
+
+.css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fff;
+    background-color: #1FBD12;
+    border-radius: 25px;
+     
+}
+
+
+
+

@@ -30,8 +30,8 @@ export default function ChainCard() {
                             <div className='col-lg-4' key={index}>
                                 <div className="chain-card">
                                     <div className="chain-text">
-                                        <h6 className='chain-heading' >{data.heading}</h6>
-                                        <p className='chain-description' style={{width:"300px"}}>{data.paragraph}</p>
+                                        <h5 className='chain-heading' >{data.heading}</h5>
+                                        <p className='chain-description'>{data.paragraph}</p>
                                     </div>
 
                                 </div>

@@ -4,6 +4,9 @@ import SupplyChain from './SupplyChain'
 import ChainCard from './ChainCard'
 import ImpactSlider from './ImpactSlider'
 import BalanceImpact from './BalanceImpact'
+import PlatformImpact from './PlatformImpact'
+import ApproachImpact from './ApproachImpact'
+import ImpactMeasuring from './ImpactMeasuring'
 
 export default function page() {
   return (
@@ -13,6 +16,9 @@ export default function page() {
       <ChainCard />
       <ImpactSlider />
       <BalanceImpact />
+      <PlatformImpact />
+      <ApproachImpact />
+      <ImpactMeasuring />
     </div>
   )
 }
