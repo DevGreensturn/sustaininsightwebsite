@@ -7,11 +7,14 @@ import BalanceImpact from './BalanceImpact'
 import PlatformImpact from './PlatformImpact'
 import ApproachImpact from './ApproachImpact'
 import ImpactMeasuring from './ImpactMeasuring'
+import ServiceSuppliers from './ServiceSuppliers'
+
 
 export default function page() {
   return (
     <div>
       <OurImpact />
+      <ServiceSuppliers />
       <SupplyChain />
       <ChainCard />
       <ImpactSlider />
@@ -19,6 +22,7 @@ export default function page() {
       <PlatformImpact />
       <ApproachImpact />
       <ImpactMeasuring />
+     
     </div>
   )
 }

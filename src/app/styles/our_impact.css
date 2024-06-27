@@ -480,3 +480,27 @@ margin-top: 40px;
  border-radius: 30px 30px 30px 30px;
  border: 1px solid #fff;
 }
+
+.service-card {
+  background-color: #EEF6EF;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+.service-description {
+  padding-top: 15px;
+  color: #898989
+}
+
+.service-heading {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+.service-box {
+  margin-bottom: 40px;
+}
