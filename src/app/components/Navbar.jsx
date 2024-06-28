@@ -51,7 +51,6 @@ const Navbar = () => {
                                 aria-haspopup="true"
                                 aria-expanded={suppliersDropdownOpen ? 'true' : 'false'}
                             >
-<<<<<<< HEAD
                                 Suppliers Assessment
                             </a>
                             <ul className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""} ${styles.dropdown_menu}`}>
@@ -71,30 +70,6 @@ const Navbar = () => {
                                 onClick={handleEnterpriseDropdownToggle}
                                 aria-haspopup="true"
                                 aria-expanded={enterpriseDropdownOpen ? 'true' : 'false'}
-=======
-                                <a
-                                    href="#"
-                                    className="nav-link dropdown-toggle"
-                                    onClick={handleSuppliersDropdownToggle}
-                                    aria-haspopup="true"
-                                    aria-expanded={suppliersDropdownOpen ? 'true' : 'false'}
-                                >
-                                    Suppliers Assessment
-                                </a>
-                                <ul
-                                    className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""}`}
-                                    aria-labelledby="navbarDropdownSuppliers"
-                                >
-                                    <li><Link href="/suppliers-assessment"><span className="dropdown-item">Impact on Supply Chain</span></Link></li>
-                                    <li><Link href="#"><span className="dropdown-item">Industries & Examples</span></Link></li>
-                                    <li><Link href="#"><span className="dropdown-item">Plan & Pricing</span></Link></li>
-                                </ul>
-                            </li>
-                            <li
-                                className={`nav-item dropdown ${enterpriseDropdownOpen ? 'show' : ''}`}
-                                onMouseEnter={handleEnterpriseDropdownToggle}
-                                onMouseLeave={() => setEnterpriseDropdownOpen(false)}
->>>>>>> d60692973d34e31aacf6c41af3380b11fd9a407b
                             >
                                 Enterprise Solutions
                             </a>
@@ -115,13 +90,8 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">                        
                             <Link
-<<<<<<< HEAD
-                                href="/#contact"
-                                className={`button-contact px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white ${styles.button_contact}`}
-=======
                                 href="/contact-us"
                                 className="button-contact px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
->>>>>>> d60692973d34e31aacf6c41af3380b11fd9a407b
                             >
                                 Contact us
                             </Link>
