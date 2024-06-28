@@ -10,17 +10,6 @@ body {
   font-family: 'Area_Extended_Regular', sans-serif !important; /* Apply the Montserrat font globally */
 }
 
-<<<<<<< HEAD
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-=======
 .layout-section {
   margin-left: 40px;
   margin-right: 40px;
@@ -32,7 +21,6 @@ body {
   margin-right: 10px;
   }
 }
->>>>>>> d60692973d34e31aacf6c41af3380b11fd9a407b
    
 a {
   color: inherit;
