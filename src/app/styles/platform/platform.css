@@ -1,0 +1,121 @@
+.platform-heading {
+    text-align: center;
+    margin-top: 80px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 978px) {
+    .platform-heading {
+        line-height: 38px;
+    }
+}
+
+
+.platform-description {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.image-platform {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.platform-class {
+    margin-top: 50px;
+}
+
+.workflow-heading {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.platform-title {
+    margin-top: 20px;
+}
+
+
+
+.workflow-card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 980px) {
+    .workflow-card {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+
+.platform-bottom {
+    width: 100%;
+    max-width: 420px;
+    padding-top: 20px;
+    font-size: 12px;
+    margin: auto;
+}
+
+
+
+
+.workflowsecond-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 980px) {
+    .workflowsecond-card {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+.detail-class {
+    margin-top: 150px;
+}
+
+.detail-heading {
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.detail-description {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.detail-descriptionsecond {
+    font-size: 14px;
+}
+
+.platform-class {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.team-heading {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.team-paragraph {
+    margin-top: 10px;
+    text-align: center;
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
