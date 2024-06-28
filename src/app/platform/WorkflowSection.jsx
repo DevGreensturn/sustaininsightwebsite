@@ -14,7 +14,7 @@ export default function WorkflowSection() {
                 <div>
                     <Image src="/Images/platform/ai.png" alt='loading' width={60} height={58} />
                 <h5 className='platform-title'>AI-powered data capture</h5>
-                <p className="platform-bottom">collects critical data from construction sites<br /> including Carbon Emissions, Material Usage, Water & Energy Consumption, Waste Recycling Rates, Worker Welfare Compliance, In-Country Value (ICV) Score, etc.</p>
+                <p className="platform-bottom">collects critical data from construction<br /> sites including Carbon Emissions, Material Usage, Water & Energy Consumption, Waste Recycling Rates, Worker Welfare Compliance, In-Country Value (ICV) Score, etc.</p>
                 </div>
                 <div>
                 <Image src="/Images/platform/blockchain.png" alt='loading' width={60} height={58} />

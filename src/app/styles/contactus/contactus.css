@@ -1,0 +1,89 @@
+.contact-heading {
+    width: 922px;
+    height: 159px;
+    gap: 0px;
+    border: 2px;
+    opacity: 0.23px;
+    font-size: 133.86px;
+    font-weight: 1000;
+    line-height: 211.67px;
+    text-align: center;
+    Opacity: 23%;
+    border: 2px 0px 0px 0px;
+    opacity: 0.23px;
+    align-self: -0 deg;
+}
+
+.contact-head {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.contact-secondheading {
+    text-align: center;
+    font-weight: 700;
+}
+.contactform {
+    background-color:#EEF6EF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 400px) {
+    .contactform {
+        margin-top: 30px;
+    }
+  }
+
+.contact-input {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    color: #fff;
+    margin-top:10px;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #1FBD12;
+    width: 100%;
+   padding: 6px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.contact-right {
+    margin-top: 55px;
+}
+
+.icons-class {
+    color:#EA7E1E;
+    border: 1px solid #EA7E1E;
+    border-radius: 25px;
+    padding: 3px;
+    font-size: 25px;
+  padding-top: 4px;
+}
+
+.contact-class {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-image {
+    text-align: center;
+}

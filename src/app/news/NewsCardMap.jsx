@@ -54,7 +54,11 @@ export default function NewsCardMap() {
                             <div>
                                 {data.image && <Image src={data.image} alt={data.heading} width={400} height={200} className='w-100' />}
                             </div>
+                          
                             <div className='card-description'>
+                            <div>
+                           <h5 className='insight-class'>Insight</h5> 
+                            </div>
                                 <h6 className='card-head'>{data.heading}</h6>
                                 <p className='card-bottom'>{data.description}</p>
                             </div>

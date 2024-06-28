@@ -15,7 +15,7 @@ export default function page() {
     <div>
       <OurImpact />
       <ServiceSuppliers />
-      <SupplyChain />
+      {/* <SupplyChain /> */}
       <ChainCard />
       <ImpactSlider />
       <BalanceImpact />

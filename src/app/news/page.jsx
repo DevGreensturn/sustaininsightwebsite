@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div>
       <Navbar />
-      <CommonBanner />
+      <CommonBanner rightheading="Our News" image="/Images/all-banner/Image-news.png"/>
       <NewsBanner />
       <NewsTab />
     </div>
