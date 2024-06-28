@@ -30,20 +30,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-<<<<<<< HEAD
-      <body className={inter.className}>
+      <body>
         <Navbar/>
         {children}
         <Footer/>
         </body>
-=======
-      <body>
-        
-        {children}
-        
-        </body>
-      {/* <body className={montserrat.className}>{children}</body> */}
->>>>>>> d60692973d34e31aacf6c41af3380b11fd9a407b
     </html>
   );
 }
