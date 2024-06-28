@@ -54,7 +54,7 @@ const Navbar = () => {
                                 Suppliers Assessment
                             </a>
                             <ul className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""} ${styles.dropdown_menu}`}>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Impact on Supply Chain</span></Link></li>
+                                <li><Link href="/suppliers-assessment"><span className={styles.dropdown_item}>Impact on Supply Chain</span></Link></li>
                                 <li><Link href="#"><span className={styles.dropdown_item}>Industries & Examples</span></Link></li>
                                 <li><Link href="#"><span className={styles.dropdown_item}>Plan & Pricing</span></Link></li>
                             </ul>
