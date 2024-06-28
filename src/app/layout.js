@@ -19,6 +19,8 @@
 // For App Router (app/layout.js) or Pages Router (pages/_app.js)
 // import { Montserrat } from 'next/font/google';
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // const montserrat = Montserrat({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] });
 export const metadata = {
@@ -28,12 +30,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+<<<<<<< HEAD
+      <body className={inter.className}>
+        <Navbar/>
+        {children}
+        <Footer/>
+        </body>
+=======
       <body>
         
         {children}
         
         </body>
       {/* <body className={montserrat.className}>{children}</body> */}
+>>>>>>> d60692973d34e31aacf6c41af3380b11fd9a407b
     </html>
   );
 }
