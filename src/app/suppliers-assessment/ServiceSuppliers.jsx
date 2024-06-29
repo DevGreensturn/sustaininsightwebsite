@@ -6,7 +6,7 @@ export default function ServiceSuppliers() {
   return (
     <div className='layout-section'>
     <div>
-        <h4 className='service-heading'>Our Services</h4>
+        <h2 className='service-heading'>Our Services</h2>
         <div className='row service-box'>
             <div className='col-lg-3'>
                 <div className='service-card'>
