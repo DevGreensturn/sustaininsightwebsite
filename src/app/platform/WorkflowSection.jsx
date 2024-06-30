@@ -7,7 +7,7 @@ export default function WorkflowSection() {
     return (
         <div className='layout-section platform-class'>
 
-            <h4 className='workflow-heading'>Workflow</h4>
+            <h2 className='workflow-heading'>Workflow</h2>
 
 
             <div className='workflow-card'>
