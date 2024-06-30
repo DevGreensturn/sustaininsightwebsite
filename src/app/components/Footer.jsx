@@ -1,4 +1,4 @@
-"use client";
+
 
 "use client";
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.logoSection}>
-          <img src="Images/Logo-1.png" alt="SustainInsight Logo" className={styles.logo} />
+          <img src="/Images/homepage/Logo-1.png" alt="SustainInsight Logo" className={styles.logo} />
           <p className={styles.description}>
             At SustainInsight, we are committed to revolutionizing the construction industry through innovative sustainability solutions.
             With a focus on environmental responsibility and data-driven decision-making, we empower construction companies, suppliers,
@@ -41,7 +41,7 @@ const Footer = () => {
               <li>Pricing</li>
             </ul>
           </div>
-          <div className={styles.newsletterSection}>
+          <div className={`${styles.newsletterSection} ${styles.column}`}>
             <h4>Join Our Newsletter</h4>
             <form>
               <input type="email" placeholder="Enter your email" className={styles.emailInput} />
@@ -55,13 +55,13 @@ const Footer = () => {
     <div className={styles.socialIcons}>
         <p className="mt-2">Follow us</p>
         <a href="https://www.facebook.com/profile.php?id=61558199255253" target="_blank" rel="noopener noreferrer">
-            <img src="/Images/facebook-box-fill.png" alt="Facebook" />
+            <img src="/Images/homepage/facebook-box-fill.png" alt="Facebook" />
         </a>
         <a href=" https://www.instagram.com/sustain_insight?igsh=OWYyb2xuNm4ydGJr" target="_blank" rel="noopener noreferrer">
-            <img src="/Images/instagram-fill.png" alt="Instagram" />
+            <img src="/Images/homepage/instagram-fill.png" alt="Instagram" />
         </a>
         <a href=" https://in.linkedin.com/company/sustainable-insights" target="_blank" rel="noopener noreferrer">
-            <img src="/Images/linkedin-box-fill.png" alt="LinkedIn" />
+            <img src="/Images/homepage/linkedin-box-fill.png" alt="LinkedIn" />
         </a>
     </div>
    </div>

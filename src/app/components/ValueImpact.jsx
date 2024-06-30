@@ -9,7 +9,7 @@ const ValueImpact = () => {
         <div className="d-flex col-12 col-md-6 col-lg-4">
           <div className={`w-100 m-2 card shadow p-3 mb-5 bg-light rounded border me-md-4 ${styles.cardBackground}`}>
             <div className="icon-wrapper">
-              <img className="bg-white border border-success rounded-circle p-3" src="/Images/Mask group 1.png" alt="Mask group 1" />
+              <img className="bg-white border border-success rounded-circle p-3" src="/Images/homepage/Mask group 1.png" alt="Mask group 1" />
             </div>
             <div className="content">
               <h3 className="mt-4">Understand Sustainable Performance</h3>
@@ -22,7 +22,7 @@ const ValueImpact = () => {
         <div className="d-flex col-12 col-md-6 col-lg-4">
           <div className={`w-100 m-2 card shadow p-3 mb-5 bg-light rounded border me-md-4 ${styles.cardBackground}`}>
             <div className="icon-wrapper">
-              <img className="bg-white border border-success rounded-circle p-3" src="/Images/Mask group 2.png" alt="Mask group 2" />
+              <img className="bg-white border border-success rounded-circle p-3" src="/Images/homepage/Mask group 2.png" alt="Mask group 2" />
             </div>
             <div className="content">
               <h3 className="mt-4">Track Progress and Improve</h3>
@@ -35,7 +35,7 @@ const ValueImpact = () => {
         <div className="d-flex col-12 col-md-6 col-lg-4">
           <div className={`w-100 m-2 card shadow p-3 mb-5 bg-light rounded border me-md-4 ${styles.cardBackground}`}>
             <div className="icon-wrapper">
-              <img className="bg-white border border-success rounded-circle p-3" src="/Images/Mask group 3.png" alt="Mask group 3" />
+              <img className="bg-white border border-success rounded-circle p-3" src="/Images/homepage/Mask group 3.png" alt="Mask group 3" />
             </div>
             <div className="content">
               <h3 className="mt-4">Add Value to your Clients</h3>

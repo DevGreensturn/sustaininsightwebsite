@@ -7,14 +7,14 @@ const AboutUs = () => {
             <div className=''>
                 <div className='row'>
                     <div className='col-lg-3 col-sm-6'>
-                        <Image src="/Images/about-2.png" width={300} height={250} className='w-100' alt='loading' />
+                        <Image src="/Images/aboutus/about-2.png" width={300} height={250} className='w-100' alt='loading' />
                     </div>
                     <div className='col-lg-3 col-sm-6 enroll-class'>
                         <div className='bg-light'>
                             <h6 className={styles.about_us}>  2024 working with Spark since </h6>
 
                         </div>
-                        <Image src="/Images/about-3.png" width={300} height={250} className='w-100' alt='loading' />
+                        <Image src="/Images/aboutus/about-3.png" width={300} height={250} className='w-100' alt='loading' />
                     </div>
                     <div className='col-lg-6 ml-4'>
                         <h2 className='text-secondary border-left  border-success'>About Us</h2>

@@ -8,7 +8,6 @@ import PlatformTeam from './PlatformTeam'
 export default function page() {
   return (
     <div>
-      <Navbar />
       <PlatformBanner />
        <WorkflowSection />
       <PlatformDetails />

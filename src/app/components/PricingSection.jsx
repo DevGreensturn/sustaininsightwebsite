@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import FeaturesList from './FeaturesList'; // Import the new component
 import styles from "../styles/header.module.css";
 
 const PricingSection = () => {
@@ -54,33 +55,37 @@ const PricingSection = () => {
           className={billingCycle === 'monthly' ? styles.active : ''}
           onClick={() => setBillingCycle('monthly')}
         >
-          Monthly
+          Rate My Company
         </button>
         <button
           className={billingCycle === 'yearly' ? styles.active : ''}
           onClick={() => setBillingCycle('yearly')}
         >
-          Yearly
+          Rate My Partners
         </button>
       </div>
-      <div className={styles.pricingGrid}>
-        {pricingOptions.map((option, index) => (
-          <div key={index} className={styles.pricingCard}>
-            <h3>{option.title}</h3>
-            <p className={styles.price}>{option.price}</p>
-            <p>{option.description}</p>
-            <button className={styles.button}>{option.buttonLabel}</button>
-            <div className={styles.features}>
-              <h4>Includes</h4>
-              <ul>
-                {option.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
-                ))}
-              </ul>
+      {billingCycle === 'yearly' ? (
+        <FeaturesList />
+      ) : (
+        <div className={styles.pricingGrid}>
+          {pricingOptions.map((option, index) => (
+            <div key={index} className={styles.pricingCard}>
+              <h3>{option.title}</h3>
+              <p className={styles.price}>{option.price}</p>
+              <p>{option.description}</p>
+              <button className={styles.button}>{option.buttonLabel}</button>
+              <div className={styles.features}>
+                <h4>Includes</h4>
+                <ul>
+                  {option.features.map((feature, i) => (
+                    <li key={i}>{feature}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -7,7 +7,6 @@ import NewsTab from './NewsTab'
 export default function page() {
   return (
     <div>
-      <Navbar />
       <CommonBanner rightheading="Our News" image="/Images/all-banner/Image-news.png"/>
       <NewsBanner />
       <NewsTab />

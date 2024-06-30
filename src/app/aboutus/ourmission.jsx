@@ -9,7 +9,7 @@ const OurMission = () => {
                     <div className="heading-container">
                         <h4 className={styles.ourmission_rightheading}>
                             Our Mission
-                            <Image src="/Images/about-8.png" width={40} height={40} alt='arrow' className='arrow-logo' />
+                            <Image src="/Images/aboutus/about-8.png" width={40} height={40} alt='arrow' className='arrow-logo' />
                         </h4>
                     </div>
 
@@ -18,7 +18,7 @@ const OurMission = () => {
                 </div>
                 <div className='col-lg-6 flex px-4'>
                     <div>
-                        <Image src="/Images/about-4.png" width={580} height={400} alt='loading' className='image-newsleftside' />
+                        <Image src="/Images/aboutus/about-4.png" width={580} height={400} alt='loading' className='image-newsleftside' />
                     </div>
 
                 </div>

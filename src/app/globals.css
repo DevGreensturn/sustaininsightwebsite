@@ -7,7 +7,16 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Area_Extended_Regular', sans-serif !important; /* Apply the Montserrat font globally */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-family: 'Area_Extended_Regular', sans-serif !important; /* Apply the font globally */
+  box-sizing: border-box; /* Apply box-sizing globally */
+}
+
+/* Apply box-sizing: border-box to all elements and pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 /* body {
