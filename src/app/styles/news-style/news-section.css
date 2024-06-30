@@ -111,6 +111,11 @@
   text-decoration: underline;
 }
 
+.button-group {
+  margin-bottom:90px;
+  margin-top: 60px;
+}
+
 .css-heg063-MuiTabs-flexContainer {
   display: flex;
   flex-wrap: wrap;

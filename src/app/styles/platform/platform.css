@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 80px;
     line-height: 50px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 978px) {
@@ -26,6 +26,7 @@
 
 .platform-class {
     margin-top: 50px;
+    margin-bottom: 85px;
 }
 
 .workflow-heading {

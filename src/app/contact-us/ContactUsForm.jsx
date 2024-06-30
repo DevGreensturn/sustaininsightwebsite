@@ -17,7 +17,7 @@ export default function ContactUsForm() {
         
       </div>
       <div>
-        <h4 className='contact-secondheading'>Contact Us</h4>
+        <h2 className='contact-secondheading'>Contact Us</h2>
       </div>
 
       <div className='layout-section'>
@@ -73,13 +73,13 @@ export default function ContactUsForm() {
             </div>
         
             <div className='contact-class'>
-            <div className='mt-4'>
-             <    FaPhoneAlt  className='icons-class'/>
-            </div>
-            <div className='pt-4'>
+            {/* <div className='mt-4'>
+             <FaPhoneAlt  className='icons-class'/>
+            </div> */}
+            {/* <div className='pt-4'>
               <h6 style={{fontWeight:"700"}}>Phone</h6>
               <h6>03302231838</h6>
-            </div>
+            </div> */}
             </div>
             </div>
          

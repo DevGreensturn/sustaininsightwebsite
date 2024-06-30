@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import NewsCardMap from './NewsCardMap';
 
-export default function ColorTabs() {
+export default function NewsTab() {
   const [value, setValue] = React.useState('one');
 
   const handleChange = (event, newValue) => {
