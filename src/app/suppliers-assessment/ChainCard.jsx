@@ -19,9 +19,9 @@ export default function ChainCard() {
     return (
         <>
             <div className='d-flex justify-center mt-4'>
-                <h4 className='supply-heading'>Challenges in Sustainable
+                <h2 className='supply-heading'>Challenges in Sustainable
                     <br />
-                    Supply Chains </h4>
+                    Supply Chains </h2>
             </div>
             <div className="layout-section">
                 <div className='row'>

@@ -34,7 +34,8 @@ export default function ImpactSlider() {
               <Carousel
                 additionalTransfrom={0}
                 arrows={false}
-                autoPlaySpeed={3000}
+                autoPlay
+                autoPlaySpeed={1000}
                 centerMode={false}
                 className=""
                 containerClass="container"
