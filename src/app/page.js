@@ -3,7 +3,7 @@ import HeroSecond from "./components/HeroSecond";
 import HeroThird from "./components/HeroThird";
 import ValueImpact from "./components/ValueImpact";
 import NewsSection from "./components/NewsSection";
-import PricingSection from "./components/PricingSection";
+import PricingSection from "./components/pricingsection";
 // import "../app/page.module.css"
 
 export default function Home() {

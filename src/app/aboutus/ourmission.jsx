@@ -3,7 +3,7 @@ import styles from "../styles/about.module.css"
 
 const OurMission = () => {
     return (
-        <div className={` ${styles.ourmission} our-mission-container`}>
+        <div className={` ${styles.ourmission} our-mission-container mx-4`}>
             <div className='row '>
                 <div className='col-lg-6'>
                     <div className="heading-container">

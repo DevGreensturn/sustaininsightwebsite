@@ -31,7 +31,8 @@ const newsItems = [
 
 const NewsSection = () => {
   return (
-    <div className={` py-12`}>
+    <div className="container-fluid">
+    <div className=" py-12 mx-4 layout-section">
       <h2 className='text-center mb-4'>Our News</h2>
       <div className='row'>
         {newsItems.map((item, index) => (
@@ -40,11 +41,12 @@ const NewsSection = () => {
               <img src={item.imageUrl} alt={item.title} className={styles.newsImage} />
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              <a href={item.link} className={styles.readMore}>Read More</a>
+              {/* <a href={item.link} className={styles.readMore}>Read More</a> */}
             </div>
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

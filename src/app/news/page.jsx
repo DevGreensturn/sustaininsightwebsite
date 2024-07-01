@@ -1,5 +1,5 @@
 import React from 'react'
-import CommonBanner from '../components/common/CommonBanner'
+import CommonBanner  from '../components/common/CommonBanner'
 import NewsBanner from './NewsBanner'
 import NewsTab from './NewsTab'
 

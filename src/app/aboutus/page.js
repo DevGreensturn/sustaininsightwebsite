@@ -4,19 +4,23 @@ import About from "./about";
 import OurMission from './ourmission';
 import Weare from "../aboutus/weare";
 import Wedo from "../aboutus/wedo";
-import Chooseus from "../aboutus/chooseus"
+import Chooseus from "../aboutus/chooseus";
+import CommonFooterSection from '../components/common/CommonFooterSection';
+
 
 
 const Page = () => {
   return (
     <div >
       <div><Construction /></div>
-      <div className='flex px-4'>
+      <div className='flex'>
     <About/>
     <OurMission/>
     <Weare/>
     <Wedo/>
-    <Chooseus/></div>
+    <Chooseus/>
+    <CommonFooterSection />
+    </div>
     </div>
   );
   

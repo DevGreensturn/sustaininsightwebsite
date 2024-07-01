@@ -4,7 +4,7 @@ import styles from  '../page.module.css'
 
 const HeroSecond = () => {
   return (
-    <div className="flex padding-top  mx-auto py-12 ">
+    <div className="flex padding-top  mx-4 py-12 ">
       <div className=" mx-auto py-12">
         <h2 className="text-2xl text-center font-bold mt-4">Trusted by enterprise leading the way in sustainability</h2>
         {/* First div is null */}

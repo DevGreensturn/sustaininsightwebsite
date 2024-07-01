@@ -3,7 +3,7 @@ import styles from "../styles/about.module.css";
 
 const WhyChooseUs = () => {
   return (
-    <div className={`${styles.why_choose} ${styles.ourmission} mb-4`}>
+    <div className={`${styles.why_choose} ${styles.ourmission} mb-4 `}>
       <div className='row'>
         <div className='col-lg-6'>
           <div>

@@ -4,7 +4,7 @@ import HeroSection from './HeroSection';
 import HeroThird from './HeroThird';
 import ValueImpact from './ValueImpact';
 import NewsSection from './NewsSection';
-import PricingSection from './PricingSection';
+import PricingSection from './pricingsection';
 
 
 const Page = () => {
