@@ -12,9 +12,9 @@ export default function ContactUsForm() {
       <div className='contact-head layout-section'>
         {/* <h3 className='contact-heading'>Contact Us</h3> */}
         <div className='contact-image'>
-        <Image src="/Images/contactus.svg" width={400} height={150} alt='loading' className='w-100'/>
+        <Image src="/Images/ContactUs.png" width={400} height={150} alt='loading' className='w-100'/>
         </div>
-        
+    
       </div>
       <div>
         <h2 className='contact-secondheading'>Contact Us</h2>
@@ -36,11 +36,11 @@ export default function ContactUsForm() {
            </div>
               </div>
             <div className='mt-4'>
-              <label>Your email</label>
+              <label>Your Email</label>
             <input type='email' className='form-control input-field'/>
             </div>
             <div className='mt-4'>
-              <label>Your message</label>
+              <label>Your Message</label>
             <textarea type='text' className='form-control input-field' rows={5}/>
             </div>
                <div>
@@ -53,13 +53,13 @@ export default function ContactUsForm() {
             <div className='contact-right'>
             <h4 style={{fontWeight:"700"}}>Let’s Build something  amazing togather</h4>
             <div className='contact-class'>
-            <div className='mt-4'>
+            {/* <div className='mt-4'>
              <IoLocationOutline  className='icons-class'/>
-            </div>
-            <div className='pt-4'>
+            </div> */}
+            {/* <div className='pt-4'>
               <h6 style={{fontWeight:"700"}}>Address</h6>
               <h6>71 Praed Street Paddington London <br />W2 1NS</h6>
-            </div>
+            </div> */}
             </div>
           
             <div className='contact-class'>
@@ -68,7 +68,7 @@ export default function ContactUsForm() {
             </div>
             <div className='pt-4'>
               <h6 style={{fontWeight:"700"}}>Email</h6>
-              <h6>info@drduk.com</h6>
+              <h6>support@greensturn.com</h6>
             </div>
             </div>
         

@@ -1,13 +1,28 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useRef } from 'react';
 import styles from "../styles/our_impact.css";
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function ServiceSuppliers() {
+
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, 
+            offset: 200, 
+            easing: 'ease-in-out', 
+            delay: 100, 
+            once: false, 
+        });
+      }, []);
+
   return (
     <div className='layout-section'>
     <div>
         <h2 className='service-heading'>Our Services</h2>
-        <div className='row service-box'>
+        <div className='row service-box' data-aos="flip-zoom" data-aos-mirror="true">
             <div className='col-lg-3'>
                 <div className='service-card'>
                     <div className='mt-2'>

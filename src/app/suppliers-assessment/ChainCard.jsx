@@ -1,10 +1,24 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useRef } from 'react';
 import styles from "../styles/our_impact.css";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 export default function ChainCard() {
+    
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 2000, 
+    //         offset: 200, 
+    //         easing: 'ease-in-out', 
+    //         delay: 100, 
+    //         once: false, 
+    //     });
+    //   }, []);
+
     const data = [
         {
-            heading: "Environmental  Regulations",
+            heading: "Environmental Regulations",
             paragraph: "Compliance with increasing environmental regulations and standards.",
         },
         {
@@ -16,6 +30,7 @@ export default function ChainCard() {
             paragraph: "Rapid technological changes requiring constant updates and adaptations.",
         }
     ];
+
     return (
         <>
             <div className='d-flex justify-center mt-4'>
@@ -25,24 +40,22 @@ export default function ChainCard() {
             </div>
             <div className="layout-section">
                 <div className='row'>
-                    {
-                        data.map((data, index) => (
-                            <div className='col-lg-4' key={index}>
-                                <div className="chain-card">
-                                    <div className="chain-text">
-                                        <h5 className='chain-heading' >{data.heading}</h5>
-                                        <p className='chain-description'>{data.paragraph}</p>
-                                    </div>
-
+                    {data.map((data, index) => (
+                        // data-aos="flip-up" data-aos-mirror="true"
+                        <div className='col-lg-4' key={index}>
+                            <div
+                                className="chain-card"
+                                // ref={el => cardRefs.current[index] = el}
+                            >
+                                <div className="chain-text">
+                                    <h5 className='chain-heading'>{data.heading}</h5>
+                                    <p className='chain-description'>{data.paragraph}</p>
                                 </div>
                             </div>
-                        ))
-                    }
-
+                        </div>
+                    ))}
                 </div>
             </div>
-
         </>
-
-    )
+    );
 }
