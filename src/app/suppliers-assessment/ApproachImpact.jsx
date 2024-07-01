@@ -1,6 +1,21 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useRef } from 'react';
+import styles from "../styles/our_impact.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function ApproachImpact() {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, 
+            offset: 200, 
+            easing: 'ease-in-out', 
+            delay: 100, 
+            once: false, 
+        });
+      }, []);
+    
     const data = [
         {
             heading: "Sustainable Sourcing",
@@ -26,14 +41,14 @@ export default function ApproachImpact() {
                 <h6 className='mt-4'>Our Approach to Sustainable Supply Chains</h6>
             </div>
             <div className="layout-section">
-                <div className='row'>
+                <div className='row' data-aos="fade-up">
                     {
                         data.map((data, index) => (
                             <div className='col-lg-6' key={index}>
-                                <div className="chain-card">
-                                    <div className="chain-text">
+                                <div className="chain-approach">
+                                    <div className="approach-text">
                                         <h5>{data.heading}</h5>
-                                        <p className='chain-description'>{data.paragraph}</p>
+                                        <p className='approach-description'>{data.paragraph}</p>
                                     </div>
 
                                 </div>

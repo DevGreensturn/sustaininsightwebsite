@@ -12,7 +12,7 @@ export default function ContactUsForm() {
       <div className='contact-head layout-section'>
         {/* <h3 className='contact-heading'>Contact Us</h3> */}
         <div className='contact-image'>
-        <Image src="/Images/contactus.svg" width={400} height={150} alt='loading' className='w-100'/>
+        <Image src="/Images/contactus.png" width={400} height={150} alt='loading' className='w-100'/>
         </div>
         
       </div>

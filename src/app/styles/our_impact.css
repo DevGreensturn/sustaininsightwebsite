@@ -163,14 +163,33 @@
   padding-top: 90px;
 }
 
+.chain-approach {
+  background-color: #eef6ef;
+  padding: 20px;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 35px;
+  padding-top: 90px;
+}
+
 .chain-text {
   padding-top: 70px;
 }
+
+.approach-text {
+  padding-top: 70px;
+}
+
 
 .chain-description {
   font-size: 12px;
   padding-top: 20px;
 }
+
+.approach-description {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
 
 .chain-heading {
   font-weight: 700;
@@ -217,6 +236,44 @@
    
   }
 }
+
+/* .chain-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.chain-card:hover {
+  transform: scale(1.1);
+} */
+
+@keyframes zoomIn {
+  from {
+      transform: scale(0.8);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+/* .chain-card {
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.chain-card.visible {
+  animation: zoomIn 0.2s forwards; /* Reduced duration for faster animation */
+*/
+
+
+
+
+.chain-card.visible.service-card.visible 
+ /* Reduced duration for faster animation */ {
+  animation: zoomIn 0.5s forwards;
+}
+
 
 .border-area {
   border-top: 1px solid red;
