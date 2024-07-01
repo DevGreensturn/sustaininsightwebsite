@@ -10,9 +10,12 @@ export default function PlatformImpact() {
             <div className='row'>
                 <div className='col-lg-7'>
                     <div className='platform-heading'>
-                    <h3 className='platform-head'>  Platform Innovations</h3> 
-                    <h6 className='mt-3 text-white'>Advanced Data Analysis</h6>
-                    <p className='mt-5 text-white'>Leverage powerful analytical tools to process and interpret collected data.</p>
+                    <h3 className='platform-head mb-5'>  Platform Innovations</h3> 
+                    <div className='mt-4'>
+                    <h6 className='text-white'>Advanced Data Analysis</h6>
+                    <p className=' text-white'>Leverage powerful analytical tools to process and interpret collected data.</p>
+                    </div>
+                   
                     </div>
              
                 </div>

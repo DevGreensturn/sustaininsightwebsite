@@ -36,11 +36,11 @@ export default function ContactUsForm() {
            </div>
               </div>
             <div className='mt-4'>
-              <label>Your email</label>
+              <label>Your Email</label>
             <input type='email' className='form-control input-field'/>
             </div>
             <div className='mt-4'>
-              <label>Your message</label>
+              <label>Your Message</label>
             <textarea type='text' className='form-control input-field' rows={5}/>
             </div>
                <div>
@@ -68,7 +68,7 @@ export default function ContactUsForm() {
             </div>
             <div className='pt-4'>
               <h6 style={{fontWeight:"700"}}>Email</h6>
-              <h6>info@drduk.com</h6>
+              <h6>support@greensturn.com</h6>
             </div>
             </div>
         

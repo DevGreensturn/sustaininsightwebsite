@@ -35,7 +35,7 @@ export default function ImpactSlider() {
                 additionalTransfrom={0}
                 arrows={false}
                 autoPlay
-                autoPlaySpeed={1000}
+                autoPlaySpeed={2000}
                 centerMode={false}
                 className=""
                 containerClass="container"

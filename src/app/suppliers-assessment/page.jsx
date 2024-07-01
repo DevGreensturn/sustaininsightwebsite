@@ -21,7 +21,7 @@ export default function page() {
       <BalanceImpact />
       <PlatformImpact />
       <ApproachImpact />
-      <ImpactMeasuring />
+      {/* <ImpactMeasuring /> */}
      
     </div>
   )

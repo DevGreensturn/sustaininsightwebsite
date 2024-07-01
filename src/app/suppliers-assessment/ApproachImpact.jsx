@@ -1,20 +1,20 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
 import styles from "../styles/our_impact.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 export default function ApproachImpact() {
 
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, 
-            offset: 200, 
-            easing: 'ease-in-out', 
-            delay: 100, 
-            once: false, 
-        });
-      }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 1000, 
+    //         offset: 200, 
+    //         easing: 'ease-in-out', 
+    //         delay: 100, 
+    //         once: false, 
+    //     });
+    //   }, []);
     
     const data = [
         {
@@ -40,8 +40,9 @@ export default function ApproachImpact() {
                 <h4 className='supply-heading'>Our Approach</h4>
                 <h6 className='mt-4'>Our Approach to Sustainable Supply Chains</h6>
             </div>
-            <div className="layout-section">
-                <div className='row' data-aos="fade-up">
+            <div className="layout-section mb-5">
+            {/* data-aos="fade-up" */}
+                <div className='row' >  
                     {
                         data.map((data, index) => (
                             <div className='col-lg-6' key={index}>
