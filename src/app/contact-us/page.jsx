@@ -7,7 +7,6 @@ import CommonFooterSection from '../components/common/CommonFooterSection'
 export default function page() {
   return (
     <div>
-   
         <CommonBanner rightheading="Contact Us" image="/Images/all-banner/contact-us.png"/>
         <ContactUsForm />
         <CommonFooterSection />
