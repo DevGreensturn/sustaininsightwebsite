@@ -39,7 +39,7 @@ export default function ImpactMeasuring() {
     </div>
 
     <div className="readybanner-footer">
-       <h3 className="footer-text">Ready to get started?</h3>
+       <h2 className="footer-text">Ready to get started?</h2>
 
        <div>
         <div className="footer-button"> 

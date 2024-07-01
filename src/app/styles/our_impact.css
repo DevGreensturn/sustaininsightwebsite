@@ -145,6 +145,8 @@
 }
 
 
+
+
 .supply-heading {
   margin-top: 20px;
   font-weight: 700;
@@ -417,6 +419,8 @@ margin-top: 40px;
   padding-top: 60px;
   justify-content: center;
   text-align: center;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
   width: 100%;
   padding: 30px;
   border-radius: 10px;
@@ -430,7 +434,7 @@ margin-top: 40px;
 
 .footer-text {
   color: #fff;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .started-class {
@@ -448,6 +452,7 @@ margin-top: 40px;
   display: flex;
   gap: 10px;
   justify-content: center;
+  padding-bottom:80px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -488,6 +493,14 @@ margin-top: 40px;
   border-radius: 12px;
   margin-top: 30px;
   padding-bottom: 60px;
+  animation: 0.5s a 0s 1;
+
+}
+
+
+
+.service-card.zoomed {
+  transform: scale(1.1); /* Adjust the scale as needed */
 }
 
 .service-description {
