@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
-import FeaturesList from './FeaturesList'; // Import the new component
+import FeaturesList from './featureslist'; // Import the new component
+import Enterprices from './enterprices';
 import styles from "../styles/header.module.css";
 
 const PricingSection = () => {
@@ -55,20 +56,23 @@ const PricingSection = () => {
           className={billingCycle === 'monthly' ? styles.active : ''}
           onClick={() => setBillingCycle('monthly')}
         >
-          Rate My Company
+        Enterprise
         </button>
         <button
           className={billingCycle === 'yearly' ? styles.active : ''}
           onClick={() => setBillingCycle('yearly')}
         >
-          Rate My Partners
+        Supply Chain
         </button>
       </div>
       {billingCycle === 'yearly' ? (
         <FeaturesList />
+        
       ) : (
+        
         <div className={styles.pricingGrid}>
-          {pricingOptions.map((option, index) => (
+          <Enterprices/>
+          {/* {pricingOptions.map((option, index) => (
             <div key={index} className={styles.pricingCard}>
               <h3>{option.title}</h3>
               <p className={styles.price}>{option.price}</p>
@@ -83,7 +87,7 @@ const PricingSection = () => {
                 </ul>
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       )}
     </div>

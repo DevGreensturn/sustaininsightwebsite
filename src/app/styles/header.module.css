@@ -53,17 +53,16 @@
   display: block;
   padding: 10px 20px;
   color: black; /* Example text color */
-  text-decoration: none; /* Remove underline */
+  text-decoration: none  !important; /* Remove underline */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
 }
 
 .dropdown_item:hover {
   background-color: #f0f0f0; /* Example hover background color */
   color: green; /* Example hover text color */
-  text-decoration: none; /* Ensure no underline on hover */
+  text-decoration:none !important /* Ensure no underline on hover */
  
 }
-
 .nav_item {
   position: relative;
 }
@@ -238,7 +237,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 300px; /* Limiting maximum width */
+  max-width: 400px; /* Limiting maximum width */
   text-align: left;
   padding: 15px;
   flex: 1 1 300px; /* Flex properties to ensure boxes are parallel */

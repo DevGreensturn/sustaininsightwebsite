@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import styles from "../styles/header.module.css"; // Import CSS modules if needed
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "../styles/header.module.css";
 
 const Navbar = () => {
     const [suppliersDropdownOpen, setSuppliersDropdownOpen] = useState(false);
@@ -19,12 +19,10 @@ const Navbar = () => {
     };
 
     return (
-        <header className={`fixed top-0 left-0 right-0 z-10 ${styles.header}`}>
-            <nav className={`navbar  navbar-expand-lg `} style={{justifyContent:"space-between"}}>
+        <header className={`${styles.header} sticky-top`}>
+            <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#00412E" }}>
                 <Link href="/" className={`navbar-brand ${styles.navbar__brand}`}>
-                    <div className="flex items-center">
-                        <img src="/Images/homepage/Logo-1.png" alt="Logo-1 image" className="h-8 mr-2" />
-                    </div>
+                    <img src="/Images/homepage/Logo-2.svg" alt="Logo-1 image" className="img-fluid" height={500}  width={350}/>
                 </Link>
                 <button
                     className="navbar-toggler"
@@ -37,8 +35,8 @@ const Navbar = () => {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={`nav_link:hover ${styles.navbar__brand}`} id="navbarNav">
-                    <ul className="navbar-nav ml-auto"> {/* ml-auto to align items to the right */}
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul className="navbar-nav">
                         <li
                             className={`nav-item dropdown ${suppliersDropdownOpen ? 'show' : ''}`}
                             onMouseEnter={handleSuppliersDropdownToggle}
@@ -46,17 +44,17 @@ const Navbar = () => {
                         >
                             <a
                                 href="#"
-                                className={`nav-link dropdown-toggle ${styles.nav_link} text-white`}
+                                className={`nav-link dropdown-toggle ${styles.nav_link}`}
                                 onClick={handleSuppliersDropdownToggle}
                                 aria-haspopup="true"
                                 aria-expanded={suppliersDropdownOpen ? 'true' : 'false'}
                             >
                                 Suppliers Assessment
                             </a>
-                            <ul className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""} ${styles.dropdown_menu}`}>
-                                <li><Link href="/suppliers-assessment"><span className={styles.dropdown_item}>Impact on Supply Chain</span></Link></li>
-                                <li><Link href="#"><span className={`${styles.dropdown_item} ${styles.dropdown_item_hover}`}>Industries & Examples</span></Link></li>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Plan & Pricing</span></Link></li>
+                            <ul className={`dropdown-menu ${suppliersDropdownOpen ? "show" : ""}`}>
+                                <li><Link href="/suppliers-assessment" className={styles.dropdown_item}>Impact on Supply Chain</Link></li>
+                                <li><Link href="#" className={styles.dropdown_item}>Industries & Examples</Link></li>
+                                <li><Link href="/PricingSection" className={styles.dropdown_item}>Plan & Pricing</Link></li>
                             </ul>
                         </li>
                         <li
@@ -66,48 +64,43 @@ const Navbar = () => {
                         >
                             <a
                                 href="#"
-                                className={`nav-link dropdown-toggle ${styles.nav_link} text-white`}
+                                className={`nav-link dropdown-toggle ${styles.nav_link}`}
                                 onClick={handleEnterpriseDropdownToggle}
                                 aria-haspopup="true"
                                 aria-expanded={enterpriseDropdownOpen ? 'true' : 'false'}
                             >
                                 Enterprise Solutions
                             </a>
-                            <ul className={`dropdown-menu ${enterpriseDropdownOpen ? "show" : ""} ${styles.dropdown_menu}`}>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Why Rating Suppliers</span></Link></li>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Rating Methodology</span></Link></li>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Rating Areas</span></Link></li>
-                                <li><Link href="#"><span className={styles.dropdown_item}>Plan & Pricing</span></Link></li>
+                            <ul className={`dropdown-menu ${enterpriseDropdownOpen ? "show" : ""}`}>
+                                <li><Link href="#" className={styles.dropdown_item}>Why Rating Suppliers</Link></li>
+                                <li><Link href="#" className={styles.dropdown_item}>Rating Methodology</Link></li>
+                                <li><Link href="#" className={styles.dropdown_item}>Rating Areas</Link></li>
+                                <li><Link href="/PricingSection" className={styles.dropdown_item}>Plan & Pricing</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link href="/news" className={`nav-link ${styles.nav_link} text-white hover:underline`}>
-                            News
-                            </Link>
+                            <Link href="/news" className={`nav-link ${styles.nav_link}`}>News</Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/platform" className={`nav-link ${styles.nav_link} text-white hover:underline`}>
-                            Platform 
-                            </Link>
+                            <Link href="/platform" className={`nav-link ${styles.nav_link}`}>Platform</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link href="/learning Center" className={`nav-link ${styles.nav_link} text-white hover:underline`}>
+                        {/* <li className="nav-item">
+                            <Link href="/learning Center" className={`nav-link ${styles.nav_link}`}>
                                 Learning Center
                             </Link>
+                        </li> */}
+                        <li className="nav-item">
+                            <Link href="/aboutus" className={`nav-link ${styles.nav_link}`}>About</Link>
                         </li>
                         <li className="nav-item">
-                        <Link href="/aboutus"  className="nav-link  text-white hover:underline">About</Link>
+                            <Link href="/contact-us" className={`nav-link ${styles.nav_link}`}>Contact Us</Link>
                         </li>
                         <li className="nav-item">
-                        <Link href="/contact-us"  className="nav-link  text-white hover:underline">Contact us</Link>
-                        </li>
-                        <li className="nav-item">                        
                             <Link
-                                href="/login"
-                                className={`button-contact px-6  rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white ${styles.button_contact}`}
-
+                                href="http://devgreensturn.com/"
+                                className={`btn btn-primary ${styles.button_contact}`}
                             >
-                            <h6 className="text-cente"> Login </h6>
+                                <h6 className="text-center m-0">Login</h6>
                             </Link>
                         </li>
                     </ul>

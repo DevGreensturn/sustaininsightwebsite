@@ -3,7 +3,7 @@ import styles from '../styles/about.module.css'
 
 const AboutUs = () => {
     return (
-        <div className={`${styles.about} ${styles.ourmission}  `}>
+        <div className={`${styles.about} ${styles.ourmission} mx-4 `}>
             <div className=''>
                 <div className='row'>
                     <div className='col-lg-3 col-sm-6'>

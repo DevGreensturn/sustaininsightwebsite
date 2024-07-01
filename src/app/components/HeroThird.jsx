@@ -5,9 +5,9 @@ import styles from "../styles/header.module.css";
 
 const HeroThird = () => {
   return (
-    <div className={`${styles.heroSection_row}mx-auto row py-12 `}>
+    <div className={`${styles.heroSection_row} mx-auto row py-12 `}>
     <section className={styles.whatWeDoSection}>
-      `<div className={`d-flex  flex-col${styles.container}`}>
+      `<div className={`d-flex  flex-col ${styles.container}`}>
         <div className={`p-2col-lg-6 d-flex justify-center align-items-center ${styles.imageContainer}`}>
           <img src="/Images/homepage/home-1.png" alt="Laptop showing SustainInsight dashboard" className={styles.image} />
         </div>

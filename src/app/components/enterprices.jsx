@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from "../styles/header.module.css";
 
-const FeaturesList = () => {
+const Enterprices = () => {
   const features = [
     "Assess an unlimited number of suppliers",
     "Add unlimited users",
@@ -16,7 +16,7 @@ const FeaturesList = () => {
 
   return (
     <div className={`text-center ${styles.featuresList}  shadow-lg p-4 rounded`}>
-        <h4 className='mb-4 mt-4 font-weight-bold'>  Supply Chain Subscription Benefits</h4>
+        <h4 className='mb-4 mt-4 font-weight-bold'>Enterprise Subscription Benefits</h4>
       <Image
         src="/Images/homepage/permission.png" 
         alt="Features"
@@ -37,4 +37,4 @@ const FeaturesList = () => {
   );
 };
 
-export default FeaturesList;
+export default Enterprices;
