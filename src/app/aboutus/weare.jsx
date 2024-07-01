@@ -21,7 +21,7 @@ const weare = () => {
                <Image src="/Images/about-8.png" width={40} height={40} alt='arrow' className='arrow-logo' />
               Who We Are  </h4>
                <h6 className='news-rightcontent'>
-                SustainInsight is an team of passionate , professionals with diverse expertise in Sustainability , technology , and construction . Our collective vision drives us to develope and deliver innovative solutions that address the complex challanges facing the industry
+                SustainInsight is an team of passionate, professionals with diverse expertise in Sustainability, technology, and construction. Our collective vision drives us to develope and deliver innovative solutions that address the complex challanges facing the industry
                </h6>
               
           </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from  '../page.module.css'
 
-const HeroSecond = () => {
+const HeroSecond = () => { 
   return (
     <div className="flex padding-top  mx-auto py-12 ">
       <div className=" mx-auto py-12">

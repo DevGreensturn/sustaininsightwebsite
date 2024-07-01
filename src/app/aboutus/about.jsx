@@ -19,7 +19,7 @@ const AboutUs = () => {
                     <div className='col-lg-6 ml-4'>
                         <h2 className='text-secondary border-left  border-success'>About Us</h2>
                         <h3 className=''> The biggest value prop for<br/> us has been the member <br/> services.</h3>
-                        <h6 className='mt-4'> At the heart of our mission is dedicated to fostering a more sustainable future for  the construction sector . By providing cutting-edge tools and actionable insights, we aim to drive meaningful change and make a positive impact on the environment. </h6>
+                        <h6 className='mt-4'> At the heart of our mission is dedicated to fostering a more sustainable future for  the construction sector. By providing cutting-edge tools and actionable insights, we aim to drive meaningful change and make a positive impact on the environment. </h6>
                     </div>
                 </div>
             </div>

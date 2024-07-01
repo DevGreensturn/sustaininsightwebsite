@@ -6,15 +6,15 @@ import styles from "../styles/our_impact.css";
 
 export default function ChainCard() {
     
-    useEffect(() => {
-        AOS.init({
-            duration: 2000, 
-            offset: 200, 
-            easing: 'ease-in-out', 
-            delay: 100, 
-            once: false, 
-        });
-      }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 2000, 
+    //         offset: 200, 
+    //         easing: 'ease-in-out', 
+    //         delay: 100, 
+    //         once: false, 
+    //     });
+    //   }, []);
 
     const data = [
         {
