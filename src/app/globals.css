@@ -19,6 +19,7 @@ body {
   box-sizing: inherit;
 }
 
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -28,6 +29,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+.layout-section {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .layout-section {
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+}
+
    
 a {
   color: inherit;
