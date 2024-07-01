@@ -25,7 +25,7 @@ export default function ApproachImpact() {
                 <h4 className='supply-heading'>Our Approach</h4>
                 <h6 className='mt-4'>Our Approach to Sustainable Supply Chains</h6>
             </div>
-            <div className="layout-section">
+            <div className="layout-section mb-5">
                 <div className='row'>
                     {
                         data.map((data, index) => (

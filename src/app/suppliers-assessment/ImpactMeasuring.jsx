@@ -9,7 +9,7 @@ export default function ImpactMeasuring() {
         Brief explanation of the importance of measuring impact to <br /> ensure
         continuous improvement and transparency.
       </h6>
-      <div className="layout-section">
+      <div className="layout-section mb-5">
         <div className="economic-class">
         <div>
         <h5 className="measure-impact-heading">Economic Impact</h5>
@@ -38,7 +38,7 @@ export default function ImpactMeasuring() {
       </div>
     </div>
 
-    <div className="readybanner-footer">
+    {/* <div className="readybanner-footer">
        <h2 className="footer-text">Ready to get started?</h2>
 
        <div>
@@ -49,7 +49,7 @@ export default function ImpactMeasuring() {
        
        </div>
       
-    </div>
+    </div> */}
     
     </>
    
